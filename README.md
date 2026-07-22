@@ -9,7 +9,8 @@ This project features an interactive **World Population & Demographics Dashboard
 By automating the ETL (Extract, Transform, Load) pipeline, this dashboard eliminates manual data collection. It delivers actionable, near-real-time demographic insights that help businesses mitigate expansion risks, optimize supply chains, and execute hyper-targeted marketing campaigns.
 
 ### 📸 Dashboard Preview
-![Dashboard Screenshot]([Add your image URL or file path here, e.g., images/dashboard_preview.png])
+!<img width="1402" height="880" alt="image" src="https://github.com/user-attachments/assets/771b0706-4245-401f-b775-30dd640c5248" />
+([Add your image URL or file path here, e.g., images/dashboard_preview.png])
 *Figure 1: Interactive view of the World Population Dashboard built in Excel.*
 
 ---
