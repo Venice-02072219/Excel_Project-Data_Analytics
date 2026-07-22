@@ -8,31 +8,31 @@ This project features an interactive **World Population & Demographics Dashboard
 
 By automating the ETL (Extract, Transform, Load) pipeline, this dashboard eliminates manual data collection. It delivers actionable, near-real-time demographic insights that help businesses mitigate expansion risks, optimize supply chains, and execute hyper-targeted marketing campaigns.
 
-### 📸 Dashboard Preview
-!<img width="1402" height="880" alt="image" src="https://github.com/user-attachments/assets/771b0706-4245-401f-b775-30dd640c5248" />
-([Add your image URL or file path here, e.g., images/dashboard_preview.png])
-*Figure 1: Interactive view of the World Population Dashboard built in Excel.*
-
----
-
-## 🛠️ Technical Stack & Architecture
-*   **Data Source:** Live web-based global population datasets (via HTTP/Web connection).
-*   **Data Pipeline:** Excel Power Query (M-Code) for ETL processes.
-*   **Data Modeling:** Power Pivot & Excel Data Model.
-*   **Visualization:** Excel Interactive Dashboards (PivotTables, Slicers, Timeline controls, and Dynamic Charts).
-
-### The ETL Pipeline Process:
-1.  **Extract:** Programmatically connected to web data tables to fetch live population metrics.
-2.  **Transform:** Cleaned missing values, removed unneeded columns, unpivoted attributes, and standardized data types using Power Query.
-3.  **Load:** Loaded the optimized dataset directly into the Excel Data Model to minimize file size and maximize calculation speed.
-
----
-
 ## ❓ Core Business Questions Addressed
+
 *   **Market Entry:** Which global regions or countries exhibit the highest population growth velocity for potential market expansion?
 *   **Resource Allocation:** How do shifting global age demographics impact long-term labor availability and consumer demand forecasting?
 *   **Risk Management:** Which highly populated urban centers face the steepest population density risks or declines?
 *   **Targeting Efficiency:** Where are the optimal geographic clusters for localized product marketing based on current population sizes?
+
+### 📸 Dashboard Preview
+<img width="1402" height="880" alt="image" src="https://github.com/user-attachments/assets/771b0706-4245-401f-b775-30dd640c5248" />
+*Figure 1: Interactive view of the World Population Dashboard built in Excel.*
+
+---
+
+## 🛠️ Excel Skills Used
+*   **📊 Pivot Tables
+*   **📈 Pivot Charts
+*   **🧮 DAX (Data Analysis Expressions)
+*   **🔍 Power Query
+*   **💪 Power Pivot
+
+---
+
+## 🌍 World Population Dataset
+
+* The dataset used for this project provides real-time, live-updating data on global population. Utilizing data primarily from the United Nations, it also features comprehensive breakdowns by region and country along with historical trends and future population projections.
 
 ---
 
