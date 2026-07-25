@@ -36,8 +36,6 @@ By automating the ETL (Extract, Transform, Load) pipeline, this dashboard elimin
 
 ---
 
-## 1️⃣ Which global regions or countries exhibit the highest population growth velocity for potential market expansion?
-
 # 🔍 Skill: Power Query (ETL)
 
 # 📥 Extract
@@ -93,6 +91,7 @@ By automating the ETL (Extract, Transform, Load) pipeline, this dashboard elimin
 
 
 ## 💡 Key Analytical Insights
+
 *   **Growth Hotspots:** Identification of specific emerging economies with compounding annual growth rates (CAGR) that signal ripe opportunities for infrastructure investment.
 *   **Demographic Divergence:** Visualization of the widening gap between aging populations in developed nations versus expanding youth majorities in developing regions, impacting product-line longevity.
 *   **Urbanization Velocity:** Data points showcasing massive population shifts toward mega-cities, forcing logistics companies to pivot toward last-mile delivery solutions.
