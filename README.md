@@ -40,7 +40,7 @@ By automating the ETL (Extract, Transform, Load) pipeline, this dashboard elimin
 
 # 🔍 Skill: Power Query (ETL)
 
-*📥 Extract
+# 📥 Extract
 
 * Two queries were created:
   * I first used Power Query("Get Data > From Web") to connect to (https://www.worldometers.info/world-population/) which allowed me to identify HTML tables and transform the data before loading.
@@ -83,7 +83,7 @@ By automating the ETL (Extract, Transform, Load) pipeline, this dashboard elimin
   <img width="311" height="645" alt="image" src="https://github.com/user-attachments/assets/e4748344-8e97-47c3-8a3d-30feb13b3c43" />
 
 
-* Load
+# Load
   
 * Finally, I loaded the transformed queries into the workbook, setting the foundation for my subsequent analysis.
 
