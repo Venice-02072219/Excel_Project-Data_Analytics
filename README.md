@@ -70,9 +70,9 @@ By automating the ETL (Extract, Transform, Load) pipeline, this dashboard elimin
 
 * I also added the DAX formula below to World Population by Region table.There were no rows with 0% or no data.
 
-  ```
+```
   =1 - AVERAGE('World Population by Region'[Urban Pop %])`
- ```
+```
 
 * 📊 Region Lookup
 
