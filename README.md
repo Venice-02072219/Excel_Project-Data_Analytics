@@ -22,11 +22,11 @@ By automating the ETL (Extract, Transform, Load) pipeline, this dashboard elimin
 
 * The following Excel skills were utilized for analysis:
 
-*   **📊 Pivot Tables
-*   **📈 Pivot Charts
-*   **🧮 DAX (Data Analysis Expressions)
-*   **🔍 Power Query
-*   **💪 Power Pivot
+*   📊 Pivot Tables
+*   📈 Pivot Charts
+*   🧮 DAX (Data Analysis Expressions)
+*   🔍 Power Query
+*   💪 Power Pivot
 
 ---
 
@@ -60,13 +60,13 @@ By automating the ETL (Extract, Transform, Load) pipeline, this dashboard elimin
 
 * To get the rural population percentage in the Population By Country table, I created the DAX formula below. This is because there were some rows which has 0% or no data in Population by Country'[Urban Pop %]) column.
 
-  ```
+```
   =IF (
     AVERAGE ( 'Population by Country'[Urban Pop %] ) > 0,
     1 - AVERAGE ( 'Population by Country'[Urban Pop %] ),
     BLANK ()
   )
-  ```
+```
 
 * I also added the DAX formula below to World Population by Region table.There were no rows with 0% or no data.
 
@@ -93,6 +93,7 @@ By automating the ETL (Extract, Transform, Load) pipeline, this dashboard elimin
 
 * <img width="1818" height="416" alt="image" src="https://github.com/user-attachments/assets/c9d4c0ff-3b63-48dc-b7e8-49e07c34ba5d" />
 
+---
 
 ## 💡 Key Analytical Insights
 
