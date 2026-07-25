@@ -113,6 +113,6 @@ This dashboard successfully bridges the gap between raw web-based demographic da
 
 ## 👤 Author
 *   **Venice Ann Santos** - *Software QC Analyst / Business Intelligence Analyst*
-*   [LinkedIn Profile Link]([(https://www.linkedin.com/in/venice-ann-santos-032a348a/)])
-*   [Portfolio Website Link]([(https://github.com/Venice-02072219)])
+*   [LinkedIn Profile Link](https://www.linkedin.com/in/venice-ann-santos-032a348a/)
+*   [Portfolio Website Link](https://github.com/Venice-02072219))
 
