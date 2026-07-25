@@ -113,13 +113,13 @@ I created a relationship between my two tables using the name column.
 
 ## 💡 Key Analytical Insights
 
-* 1. Top 10 Most / Least Populated Countries — India leads at ~1.48B, followed by China (~1.41B), the US (~349M); at the other extreme, micro-territories like Holy See (506) and Saint Barthelemy anchor the bottom.
-* 2. Global Population & Yearly Growth Rate (historical trend line) — world population sits at ~8.3B in 2026, but yearly growth has been steadily decelerating — from ~2% annually in the 1970s-80s down to well under 1% now (0.84% in 2026), a classic "growth is slowing even as absolute population rises" story.
-* 3. World Population Forecast (2030–2050) — projects continued growth to ~9.66B by 2050, but at a shrinking rate (0.47% by 2050 vs 0.84% today) — the world is heading toward population plateau, not just slower growth.
-* 4. Population by Region / bubble map (Land Area, Density, etc.) — Asia and Africa dominate by population (4.86B and 1.58B respectively) despite Africa having the least density; Northern America and Oceania are sparse by comparison. The slicer lets a viewer swap the sizing metric (land area, density, etc.) to re-cut the same geographic view.
-* 5. Urban vs Rural Population by Region — highlights uneven urbanization: Northern America/Latin America are heavily urban (~83-86%), while Africa is still majority rural (~54%) — a useful lens for infrastructure/market-entry style analysis.
-* 6. Population by Religion — Christians (~31.5%) and Muslims (~23.2%) are the two largest global groups, followed by unaffiliated/Hindus/Buddhists.
-* 7. Median Age & Fertility Rate trends over time — global median age has risen steadily (20.3 in 1970 → 31.1 in 2026) while fertility rate has more than halved (4.8+ in 1970 → 2.23 today) — the underlying demographic driver behind the growth deceleration in insight #2.
+* Top 10 Most / Least Populated Countries — India leads at ~1.48B, followed by China (~1.41B), the US (~349M); at the other extreme, micro-territories like Holy See (506) and Saint Barthelemy anchor the bottom.
+* Global Population & Yearly Growth Rate (historical trend line) — world population sits at ~8.3B in 2026, but yearly growth has been steadily decelerating — from ~2% annually in the 1970s-80s down to well under 1% now (0.84% in 2026), a classic "growth is slowing even as absolute population rises" story.
+* World Population Forecast (2030–2050) — projects continued growth to ~9.66B by 2050, but at a shrinking rate (0.47% by 2050 vs 0.84% today) — the world is heading toward population plateau, not just slower growth.
+* Population by Region / bubble map (Land Area, Density, etc.) — Asia and Africa dominate by population (4.86B and 1.58B respectively) despite Africa having the least density; Northern America and Oceania are sparse by comparison. The slicer lets a viewer swap the sizing metric (land area, density, etc.) to re-cut the same geographic view.
+* Urban vs Rural Population by Region — highlights uneven urbanization: Northern America/Latin America are heavily urban (~83-86%), while Africa is still majority rural (~54%) — a useful lens for infrastructure/market-entry style analysis.
+* Population by Religion — Christians (~31.5%) and Muslims (~23.2%) are the two largest global groups, followed by unaffiliated/Hindus/Buddhists.
+* Median Age & Fertility Rate trends over time — global median age has risen steadily (20.3 in 1970 → 31.1 in 2026) while fertility rate has more than halved (4.8+ in 1970 → 2.23 today) — the underlying demographic driver behind the growth deceleration in insight #2.
 
 The world's population is still growing and concentrated in Asia/Africa, but the engine of that growth (fertility) is cooling and the population is aging — global growth rate is on a long downward trajectory even as total population climbs toward ~9.7B by mid-century.
 
