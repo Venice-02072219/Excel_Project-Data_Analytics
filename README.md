@@ -60,16 +60,20 @@ By automating the ETL (Extract, Transform, Load) pipeline, this dashboard elimin
 
 * To get the rural population percentage in the Population By Country table, I created the DAX formula below. This is because there were some rows which has 0% or no data in Population by Country'[Urban Pop %]) column.
 
-  `=IF (
+  ```
+  =IF (
     AVERAGE ( 'Population by Country'[Urban Pop %] ) > 0,
     1 - AVERAGE ( 'Population by Country'[Urban Pop %] ),
     BLANK ()
-  )`
+  )
+  ```
 
 * I also added the DAX formula below to World Population by Region table.There were no rows with 0% or no data.
 
-  `=1 - AVERAGE('World Population by Region'[Urban Pop %])`
- 
+  ```
+  =1 - AVERAGE('World Population by Region'[Urban Pop %])`
+ ```
+
 * 📊 Region Lookup
 
 * I want the users to have the capability to filter the countries by Region but there's no column nor tables to support it. To create a list of countries with their corresponding region, I connected to https://www.britannica.com/topic/list-of-countries-1993160. However, the list is alpahabetically separated. Hence, I created a "Region Lookup" by appending the queries to create a single list.
