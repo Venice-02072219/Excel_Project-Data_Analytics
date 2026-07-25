@@ -99,7 +99,7 @@ I created a relationship between my two tables using the name column.
   
 * Finally, I loaded the transformed queries into the workbook, setting the foundation for my subsequent analysis.
 
- Skills: Pivot Tables
+ # Skills: Pivot Tables
 
 * I created the PivotTables using the Data Model I created with Power Pivot.
 
