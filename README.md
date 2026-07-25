@@ -58,6 +58,8 @@ By automating the ETL (Extract, Transform, Load) pipeline, this dashboard elimin
 
   <img width="322" height="542" alt="image" src="https://github.com/user-attachments/assets/ee0e4a14-5904-46a0-a26f-8a9eee48e9c7" />
 
+# Skill: DAX
+
 * The Urban Pop % column is available in the Population By Country and World Population by Region table. 
 
 * To get the rural population percentage in the Population By Country table, I created the DAX formula below. This is because there were some rows which has 0% or no data in Population by Country'[Urban Pop %]) column.
@@ -82,14 +84,26 @@ By automating the ETL (Extract, Transform, Load) pipeline, this dashboard elimin
 
   <img width="1475" height="597" alt="image" src="https://github.com/user-attachments/assets/26dba270-0755-4d6d-8cd9-7a276e99fc20" />
 
-* Then, I used Power Pivot for data modelling. In The Diagram view, I connected the Region Lookup table to Population By Country Table with (Country (or dependency) and (name) relating to one another.
+# Skills: Power Pivot 
+
+* 🔗 I created a data model by integrating the Region Lookup table to Population By Country table into one model.
+* 🧹 Since I had already cleaned the data using Power Query; Power Pivot created a relationship between these two tables.
+  
+# Data Model
 
   <img width="311" height="645" alt="image" src="https://github.com/user-attachments/assets/e4748344-8e97-47c3-8a3d-30feb13b3c43" />
 
+I created a relationship between my two tables using the name column.
 
 # Load
   
 * Finally, I loaded the transformed queries into the workbook, setting the foundation for my subsequent analysis.
+
+ Skills: Pivot Tables
+
+* I created the PivotTables using the Data Model I created with Power Pivot.
+
+ <img width="1362" height="483" alt="image" src="https://github.com/user-attachments/assets/b746ae00-4d13-4f00-a3ef-120271651b00" />
 
 * I wanted to show the population attributes and compare the exact numbers side-by-side by country but I thought that 234 countries would be too many to show in a bar/column chart, even in a map chart. So created a separate a pivot table on a seperate tab named "By Country" instead and created a pivot table showing all of the countries and their population attributes with slicers to filter by country and By Region.
 
@@ -99,9 +113,22 @@ By automating the ETL (Extract, Transform, Load) pipeline, this dashboard elimin
 
 ## 💡 Key Analytical Insights
 
-*   **Growth Hotspots:** Identification of specific emerging economies with compounding annual growth rates (CAGR) that signal ripe opportunities for infrastructure investment.
-*   **Demographic Divergence:** Visualization of the widening gap between aging populations in developed nations versus expanding youth majorities in developing regions, impacting product-line longevity.
-*   **Urbanization Velocity:** Data points showcasing massive population shifts toward mega-cities, forcing logistics companies to pivot toward last-mile delivery solutions.
+* 1. Top 10 Most / Least Populated Countries — India leads at ~1.48B, followed by China (~1.41B), the US (~349M); at the other extreme, micro-territories like Holy See (506) and Saint Barthelemy anchor the bottom.
+* 2. Global Population & Yearly Growth Rate (historical trend line) — world population sits at ~8.3B in 2026, but yearly growth has been steadily decelerating — from ~2% annually in the 1970s-80s down to well under 1% now (0.84% in 2026), a classic "growth is slowing even as absolute population rises" story.
+* 3. World Population Forecast (2030–2050) — projects continued growth to ~9.66B by 2050, but at a shrinking rate (0.47% by 2050 vs 0.84% today) — the world is heading toward population plateau, not just slower growth.
+* 4. Population by Region / bubble map (Land Area, Density, etc.) — Asia and Africa dominate by population (4.86B and 1.58B respectively) despite Africa having the least density; Northern America and Oceania are sparse by comparison. The slicer lets a viewer swap the sizing metric (land area, density, etc.) to re-cut the same geographic view.
+* 5. Urban vs Rural Population by Region — highlights uneven urbanization: Northern America/Latin America are heavily urban (~83-86%), while Africa is still majority rural (~54%) — a useful lens for infrastructure/market-entry style analysis.
+* 6. Population by Religion — Christians (~31.5%) and Muslims (~23.2%) are the two largest global groups, followed by unaffiliated/Hindus/Buddhists.
+* 7. Median Age & Fertility Rate trends over time — global median age has risen steadily (20.3 in 1970 → 31.1 in 2026) while fertility rate has more than halved (4.8+ in 1970 → 2.23 today) — the underlying demographic driver behind the growth deceleration in insight #2.
+
+The world's population is still growing and concentrated in Asia/Africa, but the engine of that growth (fertility) is cooling and the population is aging — global growth rate is on a long downward trajectory even as total population climbs toward ~9.7B by mid-century.
+
+
+# What this means:
+
+*   **Growth Hotspots:** Specific emerging economies with compounding annual growth rates (CAGR) signals ripe opportunities for infrastructure investment.
+*   **Demographic Divergence:** There's a widening gap between aging populations in developed nations versus expanding youth majorities in developing regions, impacting product-line longevity.
+*   **Urbanization Velocity:** Data points showcases massive population shifts toward mega-cities, forcing logistics companies to pivot toward last-mile delivery solutions.
 *   **Saturation Thresholds:** Evidence of historically dominant markets plateauing, proving the financial necessity for immediate international diversification.
 
 ---
