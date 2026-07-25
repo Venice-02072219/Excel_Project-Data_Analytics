@@ -13,7 +13,9 @@ By automating the ETL (Extract, Transform, Load) pipeline, this dashboard elimin
 *   **Targeting Efficiency:** Where are the optimal geographic clusters for localized product marketing based on current population sizes?
 
 ### 📸 Dashboard Preview
-<img width="1402" height="880" alt="image" src="https://github.com/user-attachments/assets/771b0706-4245-401f-b775-30dd640c5248" />
+
+<img width="1457" height="895" alt="image" src="https://github.com/user-attachments/assets/95b0af24-2a8f-47ff-853d-c091ea73d557" />
+
 *Figure 1: Interactive view of the World Population Dashboard built in Excel.*
 
 ---
