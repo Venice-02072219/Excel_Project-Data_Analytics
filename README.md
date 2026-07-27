@@ -95,9 +95,9 @@ By automating the ETL (Extract, Transform, Load) pipeline, this dashboard elimin
 
   <img width="311" height="645" alt="image" src="https://github.com/user-attachments/assets/e4748344-8e97-47c3-8a3d-30feb13b3c43" />
 
- # Skills: Pivot Tables
+ # Skill: Pivot Tables and Pivot Charts
 
-* I created the PivotTables using the Data Model I created with Power Pivot.
+* I created the PivotTables using the Data Model I created with Power Pivot and made the pivot charts afterwards.
 
  <img width="1362" height="483" alt="image" src="https://github.com/user-attachments/assets/b746ae00-4d13-4f00-a3ef-120271651b00" />
 
